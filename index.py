@@ -11,5 +11,6 @@ Exemplos:
 def main():
     # Função principal
     pass
+    
 if __name__== "__main__":
     main()
