@@ -14,3 +14,14 @@ def normalizar_nome(nome):
     novoNome = remover_caracteres(nome)
     novoNome = novoNome.upper()
     return novoNome
+
+def teste():
+    print ('Teste normalização de nomes\n')
+
+    # Teste da função de remover os acentos
+    print ('___(\'áêãòÁÊÃÒ\'#\')')
+    result = normalizarNome.normalizar_nome('áêãòÁÊÃÒoo\'ii#')
+    print ('___Result:', result, '\n')
+
+if __name__== "__main__":
+    teste()
