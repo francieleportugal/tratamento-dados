@@ -1,2 +1,5 @@
 # Ignore a pasta '__pycache__'
 Utils/__pycache__/
+
+# Ignore a pasta '.ipynb_checkpoints'
+Utils/.ipynb_checkpoints/
