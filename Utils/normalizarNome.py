@@ -11,7 +11,7 @@ def remover_caracteres(nome):
 
 def normalizar_nome(nome):
     novoNome = remover_acentos(nome)
-    novoNome = remover_caracteres(nome)
+    novoNome = remover_caracteres(novoNome)
     novoNome = novoNome.upper()
     return novoNome
 
@@ -20,7 +20,7 @@ def teste():
 
     # Teste da função de remover os acentos
     print ('___(\'áêãòÁÊÃÒ\'#\')')
-    result = normalizarNome.normalizar_nome('áêãòÁÊÃÒoo\'ii#')
+    result = normalizar_nome('áêãòÁÊÃÒoo\'ii#')
     print ('___Result:', result, '\n')
 
 if __name__== "__main__":
